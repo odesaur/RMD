@@ -1,0 +1,61 @@
+baseURL = 'https://odesaur.github.io/'
+title = 'Ring My Device'
+theme = 'risotto'
+
+languageCode = 'en-us'
+DefaultContentLanguage = "en-us"
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 3
+
+[params]
+noindex = true
+favicon = "favicon.ico"
+
+[params.theme]
+palette = "base16-rose-pine"
+
+# Sidebar: about/bio
+[params.about]
+title = "RMD"
+description = "Lost your phone?"
+logo_image = "favicon.ico"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/odesaur/RMD"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:odesaur@mit.slmail.me"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "about/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
