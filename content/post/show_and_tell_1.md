@@ -6,4 +6,4 @@ author = 'Naut'
 
 </br>
 
-[SNT1.apk](/documents/SNT1.apk)
+[SNT1.apk](/RMD/documents/SNT1.apk)
